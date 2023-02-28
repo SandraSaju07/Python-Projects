@@ -1,4 +1,4 @@
-# youtuber = "Sandra"
+# youtuber = "Sandra S"
 
 # print("Subscribe to " + youtuber)
 # print("Subscribe to {}".format(youtuber))
