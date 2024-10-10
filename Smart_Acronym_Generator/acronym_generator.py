@@ -8,7 +8,7 @@ def create_acronym(phrase):
     words = phrase.split()
 
     # Create acronym by ignoring common words
-    acronym = ''.join([word[0].upper() for word in words if word.lower not in common_words])
+    acronym = ''.join([word[0].upper() for word in words if word.lower() not in common_words])
 
     return acronym
 
