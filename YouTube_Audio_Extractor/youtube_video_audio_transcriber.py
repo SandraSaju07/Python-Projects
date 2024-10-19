@@ -1,9 +1,9 @@
 # Import required libraries
 import os
 import sys
-from pytubefix import YouTube
-from pydub import AudioSegment
-import speech_recognition as sr
+from pytubefix import YouTube # type: ignore
+from pydub import AudioSegment # type: ignore
+import speech_recognition as sr # type: ignore
 
 # Function to download audio of a YouTube video as MP4
 def download_audio(youtube_url, output_path):
