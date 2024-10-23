@@ -22,9 +22,10 @@ def get_summary(topic, lang = 'en'):
     except Exception as e:
         return f"Error fetching summary: {e}"
     
-def get_page_details(topic):
+def get_page_details(topic, lang = 'en'):
     """Retrieve details of a Wikipedia page"""
     try:
+        wiki.set_lang(lang)
         page = wiki.page(topic)
         return {
             'title': page.title,
